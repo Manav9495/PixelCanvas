@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="logo/favicon.ico" type="image/x-icon" />
+    <meta name="theme-color" content="#4CAF50" />
+    <meta name="author" content="pixalCanvas" />
+    <meta
+      name="description"
+      content="Revamp your space with our premium wallpapers! Explore a diverse collection of trendy designs and timeless classics. Elevate your interior with vibrant colors and unique textures. Discover the perfect backdrop for your style at WallScape."
+    />
+    <title>pixalCanvas</title>
+  </head>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header .logo {
+        font-size: 24px;
+    }
+    
+    header nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    header nav ul li {
+        margin-left: 20px;
+    }
+    
+    header nav ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    header .profile {
+        position: relative;
+    }
+    
+    header .profile .dropdown {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #fff;
+        color: #333;
+        border: 1px solid #ccc;
+        list-style: none;
+        padding: 0;
+    }
+    
+    header .profile:hover .dropdown {
+        display: block;
+    }
+    
+    .container {
+        display: flex;
+    }
+    
+    aside {
+        width: 200px;
+        background-color: #f4f4f4;
+        padding: 20px;
+    }
+    
+    aside ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    aside ul li {
+        margin: 10px 0;
+    }
+    
+    aside ul li a {
+        text-decoration: none;
+        color: #333;
+    }
+    
+    main {
+        flex: 1;
+        padding: 20px;
+    }
+    
+    .stats {
+        margin-bottom: 20px;
+    }
+    
+    .upload-form {
+        margin-top: 20px;
+    }
+    
+    .upload-form form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .upload-form label {
+        margin-bottom: 5px;
+    }
+    
+    .upload-form input {
+        margin-bottom: 10px;
+        padding: 8px;
+    }
+    
+    .upload-form button {
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .upload-form button:hover {
+        background-color: #555;
+    }
+    
+  </style>
+  <body>
+      
+    <header>
+        <div class="logo">PixelCanvas
+            <img src="/logo/icon .png" alt="PixelCanvas Logo" class="logo">
+            <h1>About PixelCanvas</h1>
+        </div>
+        
+        <nav>
+            <ul>
+                <a href="About.html" class="wallsCategoryLink">About</a>
+                <a href="index.html" class="wallsCategoryLink">Trending</a>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <aside>
+            <ul>
+                <li><a href="#">Dashboard Overview</a></li>
+                <li><a href="#">My Wallpapers</a></li>
+                <li><a href="#">Upload Wallpaper</a></li>
+                <li><a href="#">Account Settings</a></li>
+                <a href="sign in.html" class="wallsCategoryLink">logout</a>
+            </ul>
+        </aside>
+        <main>
+            <h1>Welcome, [MANAV TYAGI ]</h1>
+            <div class="stats">
+                <p>Total Wallpapers Uploaded: [USER DISCRESUION]</p>
+            </div>
+            <section class="uploaded-wallpapers">
+                <h2>My Uploaded Wallpapers</h2>
+                <!-- Add wallpaper thumbnails here -->
+            </section>
+            <section class="upload-form">
+                <h2>Upload New Wallpaper</h2>
+                <form id="uploadForm">
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" name="title" required>
+                    <label for="file">Choose File:</label>
+                    <input type="file" id="file" name="file" accept="image/*" required>
+                    <button type="submit">Upload</button>
+                </form>
+            </section>
+        </main>
+    </div>
+  
+    <div>
+        <footer>
+            <p class="copyRights">
+                Made With <span class="emoji">&#128154;</span> By Manav Tyagi
+              </p>
+              <p class="copyRights">
+                <a href="sign up.html" class="wallsCategoryLink">logout</a>
+                pixalCanvas<span class="emoji">&copy;</span> 2024 - All Right Reserved
+              </p>
+
+        </footer>
+        
+      
+    </div>
+    <script src="user.js"></script>
+  </body>
+</html>

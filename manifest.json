@@ -1,0 +1,17 @@
+{
+  "name": "pixalCanvas: Your Wall, Your Story",
+  "short_name": "pixalCanvas",
+  "description": "Revamp your space with our premium wallpapers!, Discover the perfect backdrop for your style at WallScape.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4CAF50",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "192x192",
+      "type": "favicon.ico"
+    }
+  ],
+  "manifest_version": 2
+}

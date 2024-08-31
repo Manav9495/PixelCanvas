@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="logo/favicon.ico" type="image/x-icon" />
+    <meta name="theme-color" content="#4CAF50" />
+    <meta name="author" content="WallScape" />
+    <meta
+      name="description"
+      content="Revamp your space with our premium wallpapers! Explore a diverse collection of trendy designs and timeless classics. Elevate your interior with vibrant colors and unique textures. Discover the perfect backdrop for your style at WallScape."
+    />
+    <title>PixelCanvas</title>
+  </head>
+
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .about-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    .about-header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .logo {
+        width: 150px;
+        height: auto;
+    }
+    
+    .about-header h1 {
+        margin: 10px 0;
+        color: #333;
+    }
+    
+    .about-section, .contributions-section, .get-in-touch-section {
+        margin-bottom: 30px;
+    }
+    
+    h2 {
+        color: #007bff;
+        border-bottom: 2px solid #007bff;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .contributor {
+        margin-bottom: 20px;
+    }
+    
+    .contributor h3 {
+        margin: 0;
+        color: #333;
+    }
+    
+    .contributor p {
+        margin: 5px 0;
+    }
+    
+    .get-in-touch-section form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .get-in-touch-section label {
+        display: block;
+        margin: 10px 0 5px;
+    }
+    
+    .get-in-touch-section input, .get-in-touch-section textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    
+    .get-in-touch-section button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .get-in-touch-section button:hover {
+        background-color: #0056b3;
+    }
+    
+
+  </style>
+  <body>
+    <div class="loading-screen">
+        <div class="loader"></div>
+      </div>
+      <div class="content">
+        <main>
+          <div class="wcm">
+            <div class="wallsCategory">
+              <a href="index.html" class="wallsCategoryLink">Trending</a>
+              <a href="Abstract.html" class="wallsCategoryLink">Abstract</a>
+              <a href="Amoled.html" class="wallsCategoryLink">Amoled</a>
+              <a href="Artwork.html" class="wallsCategoryLink">Artwork</a>
+              <a href="Games.html" class="wallsCategoryLink">Games</a>
+              <a href="Minimal.html" class="wallsCategoryLink">Minimal</a>
+              <a href="Nature.html" class="wallsCategoryLink">Nature</a>
+              <a href="Cars.html" class="wallsCategoryLink">Cars</a>
+              <a href="Shows.html" class="wallsCategoryLink">Shows</a>
+              <a href="About.html" class="wallsCategoryLink">About</a>
+              <a href="USERDASHBOURD.html" class="wallsCategoryLink">USERDASHBOURD</a>
+            </div>
+          </div>
+    <div class="about-container">
+        <header class="about-header">
+            <img src="/logo/icon .png" alt="PixelCanvas Logo" class="logo">
+            <h1>About PixelCanvas</h1>
+        </header>
+        <section class="about-section">
+            <h2>Our Mission</h2>
+            <p>At PixelCanvas, our mission is to provide stunning and high-quality wallpapers that enhance your digital experience. We strive to offer a diverse collection of images that cater to all tastes and preferences, ensuring you find the perfect wallpaper to personalize your world.</p>
+        </section>
+        <section class="contributions-section">
+            <h2>Contributors</h2>
+            <div class="contributor">
+                <h3>Manav Tyagi</h3>
+                <p><strong>Owner</strong><br>As the owner of PixelCanvas, Manav Tyagi is dedicated to curating and managing the website. With a passion for technology and design, Manav ensures that PixelCanvas remains a top destination for high-quality wallpapers.</p>
+            </div>
+            <div class="contributor">
+                <h3>Shubham Kashyap</h3>
+                <p><strong>Wallpaper Contributor</strong><br>Shubham Kashyap contributes a variety of eye-catching wallpapers to PixelCanvas. With an eye for detail and creativity, Shubham's work adds a unique touch to our collection.</p>
+            </div>
+        </section>
+        <section class="get-in-touch-section">
+            <h2>Get in Touch</h2>
+            <p>We'd love to hear from you! If you have any questions, feedback, or suggestions, feel free to reach out to us using the contact form below.</p>
+            <form action="send-message.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+    
+      <footer>
+        <p class="copyRights">
+          Made With <span class="emoji">&#128154;</span> By Manav Tyagi
+        </p>
+        <p class="copyRights">
+          PixelCanvas <span class="emoji">&copy;</span> 2024 - All Right Reserved
+        </p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
