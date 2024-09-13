@@ -57,9 +57,9 @@ To ensure a positive and respectful environment, please review our [Code of Cond
 
 ## License
 
-PixelCanvas is licensed under the [MIT License](LICENSE). See the LICENSE file for more details.
+PixelCanvas is licensed under the Apache License 2.0 (LICENSE). See the LICENSE file for more details.
 
 ## Contact
 
-For any questions or feedback, please reach out to [your-email@example.com].
+For any questions or feedback, please reach out to tyagimanav073@gmail.com.
 
